@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 /* eslint-disable lines-around-directive */
 /* eslint-disable no-unused-vars */
 /* eslint-disable default-case */
@@ -101,108 +102,105 @@ var __wpo = {
       './main.js.LICENSE',
       './robots.txt',
       './index.html',
-      './'
+      './',
     ],
     additional: [],
-    optional: []
+    optional: [],
   },
   externals: [],
   hashesMap: {
-    '3945bd8a41856a8c0f424dd175354ef49af09b9c': './assets/favicon-16x16.png',
-    '09f3f9390674659705bdac2d9b2c0bca1e26deb8': './assets/favicon-32x32.png',
-    '2cba69a2899ae5734c7ed3a7d0940992a36fc9bc':
+    e6edd51012db55e0c1a0fb96fbdcc0a5abddfcf6: './assets/favicon-16x16.png',
+    '98f280277d459715bfad929cf1855445649854ec': './assets/favicon-32x32.png',
+    '14547d8f7eb2ddd26461adf11bf557b14611b605':
       './assets/android-chrome-48x48.png',
-    ea4ed981660909cbc3c12420082041a7e01c6c2b: './assets/favicon.ico',
-    '8630f41f3756f4b783648dd87a1c715955803dd0':
+    '65b2f841a789577ccad654855990dc9aedc9f789': './assets/favicon.ico',
+    '3ad6ca08adde375aaf81a8f8c2d6ec986c104d02':
       './assets/android-chrome-36x36.png',
-    '608f80b2e42faed214f07fb4943c89d2970c5bb2':
-      './assets/android-chrome-72x72.png',
-    b8bbc70984a69408f2020f883ba8aee52bbc531c:
-      './assets/android-chrome-96x96.png',
-    '0bdf35a46a843a3fbda4224df7db000de952fe64': './assets/mstile-144x144.png',
-    '02a1957992d7f1b5ac9ff63a3876589bf13feab7':
-      './assets/android-chrome-192x192.png',
-    '8b98fb09c258eda066a8367398eee561eaef0d2a':
-      './assets/android-chrome-256x256.png',
-    '2b632cfd67bf308ca05f802d24fa95bf2f6b5ace':
-      './assets/android-chrome-384x384.png',
-    '74d9842e35fddd553c1c5d958933d3c9307bd020':
-      './assets/android-chrome-512x512.png',
-    '9d03d4696605818e0e7e2d0c107db88657566a58':
-      './assets/apple-touch-icon-57x57.png',
-    b10f84abd9e5aa42e78d2d0c3f1e1a6d14222b0a:
-      './assets/apple-touch-icon-60x60.png',
-    '9feeb111a6fdd8a708fef61da266349831d04db2':
+    '702b092ad7c3d800b3798a959b67c124e2e4f62b':
       './assets/apple-touch-icon-72x72.png',
-    '034d60c6be6d71b9e4a0c9f914e3be4af485bc21':
+    '921a03755170791be5f0efccd036a3f14c4deff6':
+      './assets/android-chrome-96x96.png',
+    '4f8f8a8538f42a264fd6913f2a25b2c1b556ef03': './assets/mstile-144x144.png',
+    '852f89d50223a389aacaa266ccaf0a8933ffbb68':
+      './assets/android-chrome-192x192.png',
+    '1f7c8178bc62d40d9dcdfe587dd4cb18150329e8':
+      './assets/android-chrome-256x256.png',
+    '4ad4d89cbeec8309956aefc2e7bf224daab449e5':
+      './assets/android-chrome-384x384.png',
+    '77d34213fec2f98356b8a2ca492a6fbcf968a29d':
+      './assets/android-chrome-512x512.png',
+    '3c0f07bfb868136b0f3149f5e973eafdc69ca2a1':
+      './assets/apple-touch-icon-57x57.png',
+    '692af2283e45adcdfdcdeddc906c22c79af11f41':
+      './assets/apple-touch-icon-60x60.png',
+    a1ad80f3c08e69a4cfe9332e98bbbc8e648eb58c:
       './assets/apple-touch-icon-76x76.png',
-    e83d9850c36a6a5d37ebe1b0c9f6ae7da1615f9a:
+    '8148f344d7e35ec2881d3b676b0ea0c65a49bdf2':
       './assets/apple-touch-icon-114x114.png',
-    '0f4e9d540df6e57656496068c309461448eda567':
+    f9733132b115eafb39d99255357f32fc62ac3034:
       './assets/apple-touch-icon-120x120.png',
-    a5f172221cb8e49c9b9666786cf513a8669e0754:
-      './assets/apple-touch-icon-144x144.png',
-    '8c6d6beb87325599378a1795d5c7824686e36398':
+    '0a00ffd16dec102224f71d08fa7ddee10c450882':
       './assets/apple-touch-icon-152x152.png',
-    a4999ccb84f0453aa22350dca27e79ca8a64ebca:
+    '188f633bf9846d6e4e5a155e21632ae71d96c7fd':
       './assets/apple-touch-icon-167x167.png',
-    '4227ef3cd95227287667a235ff1e71e7e39186a7':
+    a487b7ead29b1adb011a35dbb0e9a61615e81a20:
       './assets/apple-touch-icon-precomposed.png',
-    '1cb905198e86fa54de91d93c209c5ba19ae3be59':
+    '1da241137fc33560bb8d4ac05c16877bd089cb13':
       './assets/apple-touch-icon-1024x1024.png',
-    c89e716007ddfc48e836fd9d0ace0848dbaab8e7:
+    c22ac5b389df7e5914843d65392b33a582205ab0:
       './assets/apple-touch-startup-image-640x1136.png',
-    '054c2dcca76adbd6725f4183c6230f99d28317dd':
+    '26ea23d45b8440d58f4da1e3f518f11bfaa30a1e':
       './assets/apple-touch-startup-image-750x1334.png',
-    ca697ce622c752d8a29a799b82d7562a77ebaad9:
+    '307bc8510370c3f50591b39d6b8ee2687fb2c559':
       './assets/apple-touch-startup-image-828x1792.png',
-    da6104c9ca5a04105fec69be7555b89252d22d3d:
+    baabd5f1b07dd143e5b2ea26d718fc5c5a3b7dc1:
       './assets/apple-touch-startup-image-1125x2436.png',
-    a5629b8bd125582b1a74a76b7e9f35cea6b03290:
+    '7de338fcfacfc32e9c2737d66296006d207f9d8d':
       './assets/apple-touch-startup-image-1242x2208.png',
-    cae3950dfb19e77c1e3892610e5a9cc6071616a2:
+    e56cc2b2ae0bd8d69118365d865ce5915fe7ad29:
       './assets/apple-touch-startup-image-1242x2688.png',
-    ddf73e91a6fd98130df1548114d5af95f184b23b:
+    aaa14c4003c743da3061df8f845834ba340d2481:
       './assets/apple-touch-startup-image-1536x2048.png',
-    d4465ee2a659bae5a6afa3cb5a138824cbb038ca:
+    '8585e8241d684d179f2b5b4934c9c2e029b88769':
       './assets/apple-touch-startup-image-1668x2224.png',
-    e8bcb3dcfad9782634bfff36909263a55419794a:
+    '60631d2fe0e7ec971913b74f1b867d7d404e27c7':
       './assets/apple-touch-startup-image-1668x2388.png',
-    '1dac23f54284f470e47ca58981608b50c165b799':
+    '22d3103a9cb94b0da2ae07fd1edcab490da87ea2':
       './assets/apple-touch-startup-image-2048x2732.png',
-    ade9e652d1456422abacd025f5618af069fdf2ef:
+    a12a201d8046411786e6c0324923756c5850403e:
       './assets/apple-touch-startup-image-1136x640.png',
-    a91f95ddf8b4b9efe8532512590c76200aad5fae:
+    f47f55d720891950f66b14745455f9b596296bb8:
       './assets/apple-touch-startup-image-2160x1620.png',
-    b9c2f0354c00b2dfdb0410c5dc67cbdcbdd265e3:
+    '0fd6fae096c56240e77886a92b87622626a696f1':
       './assets/apple-touch-startup-image-1620x2160.png',
-    '2a085f81fd349af337cebb9d6bfdf0a5cfe1173c':
+    d8a50b38f82ccae3dff28f86af0837d5f86d0bf2:
       './assets/apple-touch-startup-image-1334x750.png',
-    '271026b85031e4ff3014bd5cf1b7d2e4852db5cb':
+    '89582e2231ade9ca709336f0fb2fa818674c4704':
       './assets/apple-touch-startup-image-1792x828.png',
-    '2de5f2f7b46605b2fb6e5133b5c0197d0b74a3db':
+    be954bd62840c578d84f899889ea5f4c8ef9a093:
       './assets/apple-touch-startup-image-2436x1125.png',
-    fba2a06433f8f691f3c7f541fb269a361d2449a8:
+    '51711915f58a740e2e25de6312bf8bf6380710d6':
       './assets/apple-touch-startup-image-2208x1242.png',
-    ea28b2039af595259106391698ec5c4de0702c50:
+    d0b15e2ddd469af7d169cc2e501da70c7f770104:
       './assets/apple-touch-startup-image-2688x1242.png',
-    cc53d14473490c027c28d1db35ffb04dc0afd68a:
+    '2cdd8678516b5f8012541d967205d1404f6d25be':
       './assets/apple-touch-startup-image-2048x1536.png',
-    c69989a8143110b8b6ac0edf66ffe17531a3087f:
+    '940ef0a47c0cd8b57f52d8391bdfb9a518072943':
       './assets/apple-touch-startup-image-2224x1668.png',
-    '10fa90010bb788f032f376a8e2062382d4b1f163':
+    '2e7790369d70b5e345e267f6aa734c20b8f08421':
       './assets/apple-touch-startup-image-2388x1668.png',
-    fe48b4af511372ce9e976ac4a9c59708e21b2389:
+    '89bacd9efd208dd1bdb2d80fd313fc7c2ea018b9':
       './assets/apple-touch-startup-image-2732x2048.png',
-    f8c371d7df0a8a206ce7f1c32e6086aa539dff8d: './assets/firefox_app_60x60.png',
-    f3f366307b28cdc44d72e9e6a5fbd7651f8386d7:
+    '30629c8471fad14196cf040f490509bf12e31888':
+      './assets/firefox_app_60x60.png',
+    '154500b88e4f26d98f94d0cb8e6d8feec6dedc62':
       './assets/firefox_app_128x128.png',
-    '6870e4ce2e6d850b0d5a9463965dd710477c5a20':
+    '7862ed74ecb1099c23236562e5491cdedf4af23a':
       './assets/firefox_app_512x512.png',
-    '27fdf1e40e68eefb692835eb94703e8e1abbff0c': './assets/mstile-70x70.png',
-    '0dff8d62cd41a50becf09d974ca7f3c914436346': './assets/mstile-150x150.png',
-    '982f8b3b354ec8c6e778973ce66d887f2d0f9a37': './assets/mstile-310x150.png',
-    '90f7b40b13748d65692451a908af201da45d635b': './assets/mstile-310x310.png',
+    '3fb8864530303d85e481985b1617679165ce703a': './assets/mstile-70x70.png',
+    '6183a52b1f07077fb4b16ba35f16af5f50208196': './assets/mstile-150x150.png',
+    d1c51c0b51799682c55b6c550385f18e721c0678: './assets/mstile-310x150.png',
+    ba9dc2364df6c557dd018b0eadca2c0563d96d0f: './assets/mstile-310x310.png',
     '0f2449bd3eb5565c149b5bfa4223b40ecc08a313': './assets/manifest.json',
     '375cac3d91bb2484b5574f1ffb3635e3e4970edf': './assets/manifest.webapp',
     '62b69d6e42be30ce75e6dd2e80247359ef9c57d4': './assets/browserconfig.xml',
@@ -212,41 +210,43 @@ var __wpo = {
     '043840ea188fff2f488849156149cc47707ec289':
       './fonts/libre-baskerville-v5-latin-regular.woff2',
     f215182ef6d5f0233fee4ef3145d9c4d833bb04d: './style.css',
-    a6c934c11138368becef3342f5325684240dfe9e: './main.js',
-    f82efcc266b2b6d31795a33b84b0285463796c50: './vendor.js',
+    '81f6ae856ba77e39723cfa48f3698c311d327904': './main.js',
+    '2059b88f273be8d31881aa073a00f34403b84b5b': './vendor.js',
     '20cf41840ccb7f346f4ed11e621804748733c3ed': './main.js.LICENSE',
     '423251d722a53966eb9368c65bfd14b39649105d': './robots.txt',
-    '4c8c029c8ae94ebec65455a892c4c91de4aecd5d': './'
+    '4c8c029c8ae94ebec65455a892c4c91de4aecd5d': './',
   },
   strategy: 'changed',
   responseStrategy: 'cache-first',
-  version: '2020-3-8 11:35:06',
+  version: '2020-4-4 13:25:32',
   name: 'webpack-offline',
   pluginVersion: '5.0.7',
-  relativePaths: true
+  relativePaths: true,
 };
-self.addEventListener("fetch", function(event) {
- console.log("[SW] fetch event (global scope fecth handler)");
-});
 
-self.addEventListener("push", function(event) {
- if (Notification.permission == "granted") {
-   console.log("[SW] Push Notification Recieved", event);
-   event.waitUntil(
-     self.registration
-       .showNotification(event.data.json().notification.title, {
-         body: event.data.json().notification.body,
-         icon: event.data.json().notification.icon
-       })
-       .then(
-         function(showEvent) {},
-         function(error) {
-           console.log(error);
-         }
-       )
-   );
- }
-});
+self.addEventListener("fetch", function(event) {
+ //  console.log("[SW] fetch event (global scope fecth handler)");
+ });
+ 
+ self.addEventListener("push", function(event) {
+  if (Notification.permission == "granted") {
+    console.log("[SW] Push Notification Recieved", event);
+    event.waitUntil(
+      self.registration
+        .showNotification(event.data.json().notification.title, {
+          body: event.data.json().notification.body,
+          icon: event.data.json().notification.icon
+        })
+        .then(
+          function(showEvent) {},
+          function(error) {
+            console.log(error);
+          }
+        )
+    );
+  }
+ });
+
 !(function(e) {
   var n = {};
   function t(r) {
@@ -411,7 +411,7 @@ self.addEventListener("push", function(event) {
             return U(r, t, {
               bust: e.version,
               request: d,
-              failAll: 'main' === n
+              failAll: 'main' === n,
             });
           })
           .then(function() {
@@ -501,8 +501,8 @@ self.addEventListener("push", function(event) {
                   bust: e.version,
                   request: d,
                   failAll: 'main' === n,
-                  deleteFirst: 'main' !== n
-                })
+                  deleteFirst: 'main' !== n,
+                }),
               ]);
             });
           });
@@ -554,7 +554,7 @@ self.addEventListener("push", function(event) {
               self.registration.navigationPreload &&
               (n = Promise.all([
                 n,
-                self.registration.navigationPreload.enable()
+                self.registration.navigationPreload.enable(),
               ])),
             e.waitUntil(n);
         }),
@@ -778,7 +778,7 @@ self.addEventListener("push", function(event) {
             }
           }
         }),
-								self.addEventListener('message', function(e) {
+        self.addEventListener('message', function(e) {
          if (n) {
            switch (n.action) {
              case 'skipWaiting':
@@ -793,6 +793,7 @@ self.addEventListener("push", function(event) {
                return console.log('[SW]:', 'Delete cache:', e), caches.delete(e);
              });
              port && port.postMessage('SW is deleting caches ...');
+            //  debugger;
              return Promise.all(n);
            });
          }
@@ -866,5 +867,5 @@ self.addEventListener("push", function(event) {
     })(__wpo, { loaders: {}, cacheMaps: [], navigationPreload: !1 }),
       (e.exports = t(1));
   },
-  function(e, n) {}
+  function(e, n) {},
 ]);
