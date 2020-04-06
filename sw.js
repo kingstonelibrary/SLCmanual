@@ -862,7 +862,7 @@ self.addEventListener("fetch", function(event) {
                return console.log('[SW]:', 'Delete cache:', e), caches.delete(e);
              });
              port && port.postMessage('SW is deleting caches ...');
-            //  debugger;
+             debugger;
              return Promise.all(n);
            });
          }
