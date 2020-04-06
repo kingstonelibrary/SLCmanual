@@ -278,7 +278,7 @@ var __wpo = {
   },
   strategy: 'changed',
   responseStrategy: 'cache-first',
-  version: '2020-4-6 9:29:06',
+  version: '2020-4-6 9:29:07',
   name: 'webpack-offline',
   pluginVersion: '5.0.7',
   relativePaths: true,
@@ -856,7 +856,7 @@ self.addEventListener("fetch", function(event) {
            //   return Promise.all(n);
            // });
            port && port.postMessage('SW received updateDESU!')
-         } else if(e.data.type === 'my_data'){  // UI-SW間通信（BTNクリックイベントトリガー）
+         } else if(e.data.type === 'EraseCacheBTN'){  // UI-SW間通信（BTNクリックイベントトリガー）
            caches.keys().then(function(e) {
              var n = e.map(function(e) {
                return console.log('[SW]:', 'Delete cache:', e), caches.delete(e);
