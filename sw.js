@@ -271,19 +271,18 @@ var __wpo = {
     '3515e492b299e3286aaa350e7a294eaf19400d9a': './images/3-3-1.png',
     bef5779b2684972a491e7cf2b69f1224d692db5f: './images/4-1.png',
     '09d2cd4fc230ed51d01fe2befedff259c2638454': './images/4-2.png',
-    '75df5c5609998851356f50f7048e51152bdf853d': './main.js',
+    '5dc0baa85659437767d096c2d8128e96ad2bcc16': './main.js',
     df4b45281143df83981fe7ad41eedde8143fb874: './vendor.js',
     '423251d722a53966eb9368c65bfd14b39649105d': './robots.txt',
-    '9060a7fb31c2e9a8d72d8ee73c1bfe6d9fa96743': './',
+    '6e614590c5211c21ab6cd9fefac82e59a94c22a8': './',
   },
   strategy: 'changed',
   responseStrategy: 'cache-first',
-  version: '2020-4-5 11:19:15',
+  version: '2020-4-6 9:29:06',
   name: 'webpack-offline',
   pluginVersion: '5.0.7',
   relativePaths: true,
 };
-
 self.addEventListener("fetch", function(event) {
  //  console.log("[SW] fetch event (global scope fecth handler)");
  });
@@ -847,8 +846,8 @@ self.addEventListener("fetch", function(event) {
          }
          // console.log('e.data.type:' + e.data.type);
          const port = e.ports[0];
-         if (e.data.type === 'updateDESU!') {
-           // caches.keys().then(function(e) {																	// keysでキャッシュ名群を配列で取得 →１つ１つ槊杖する処理
+         if (e.data.type === 'updateDESU!') { // UI-SW間通信（SW更新イベントトリガー）
+           // caches.keys().then(function(e) {	// keysでキャッシュ名群を配列で取得 →１つ１つ槊杖する処理
            //   var n = e.map(function(e) {
            //     return console.log('[SW]:', 'Delete cache:', e), caches.delete(e);
            //   });
@@ -857,6 +856,15 @@ self.addEventListener("fetch", function(event) {
            //   return Promise.all(n);
            // });
            port && port.postMessage('SW received updateDESU!')
+         } else if(e.data.type === 'my_data'){  // UI-SW間通信（BTNクリックイベントトリガー）
+           caches.keys().then(function(e) {
+             var n = e.map(function(e) {
+               return console.log('[SW]:', 'Delete cache:', e), caches.delete(e);
+             });
+             port && port.postMessage('SW is deleting caches ...');
+            //  debugger;
+             return Promise.all(n);
+           });
          }
        });
       var S = new Map();
