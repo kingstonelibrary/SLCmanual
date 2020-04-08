@@ -34,6 +34,42 @@
 var __wpo = {
   assets: {
     main: [
+      './images/gairai_icon.png',
+      './images/nyuuinn_icon.png',
+      './images/sango_icon.png',
+      './images/annzenn_icon.png',
+      './images/logo.png',
+      './images/howto.png',
+      './images/1-1.png',
+      './images/1-2.png',
+      './images/1-3.png',
+      './images/1-4.png',
+      './images/1-5.png',
+      './images/1-6.png',
+      './images/1-7.png',
+      './images/1-8.png',
+      './images/1-8-1.png',
+      './images/1-9.png',
+      './images/2-1.png',
+      './images/2-2.png',
+      './images/2-3-1.png',
+      './images/2-3-2.png',
+      './images/2-4.png',
+      './images/2-4-1.png',
+      './images/2-5.png',
+      './images/2-6.png',
+      './images/2-7.png',
+      './images/3-1.png',
+      './images/3-1-1.png',
+      './images/3-1-2.png',
+      './images/3-1-3.png',
+      './images/3-1-4.png',
+      './images/3-2.png',
+      './images/3-2-1.png',
+      './images/3-3.png',
+      './images/3-3-1.png',
+      './images/4-1.png',
+      './images/4-2.png',
       './assets/favicon-16x16.png',
       './assets/favicon-32x32.png',
       './assets/favicon-48x48.png',
@@ -93,42 +129,6 @@ var __wpo = {
       './manifest.json',
       './manifest.webapp',
       './assets/browserconfig.xml',
-      './images/gairai_icon.png',
-      './images/nyuuinn_icon.png',
-      './images/sango_icon.png',
-      './images/annzenn_icon.png',
-      './images/logo.png',
-      './images/howto.png',
-      './images/1-1.png',
-      './images/1-2.png',
-      './images/1-3.png',
-      './images/1-4.png',
-      './images/1-5.png',
-      './images/1-6.png',
-      './images/1-7.png',
-      './images/1-8.png',
-      './images/1-8-1.png',
-      './images/1-9.png',
-      './images/2-1.png',
-      './images/2-2.png',
-      './images/2-3-1.png',
-      './images/2-3-2.png',
-      './images/2-4.png',
-      './images/2-4-1.png',
-      './images/2-5.png',
-      './images/2-6.png',
-      './images/2-7.png',
-      './images/3-1.png',
-      './images/3-1-1.png',
-      './images/3-1-2.png',
-      './images/3-1-3.png',
-      './images/3-1-4.png',
-      './images/3-2.png',
-      './images/3-2-1.png',
-      './images/3-3.png',
-      './images/3-3-1.png',
-      './images/4-1.png',
-      './images/4-2.png',
       './main.js',
       './vendor.js',
       './robots.txt',
@@ -140,6 +140,42 @@ var __wpo = {
   },
   externals: [],
   hashesMap: {
+    a0fab6b00709918718a75a1648217b93becaad9b: './images/gairai_icon.png',
+    e56a764aecd444a3fe2de1f0244ab59ba0ddb39e: './images/nyuuinn_icon.png',
+    c5cebeeea6453f8c495666831aa0dcc9b972b90e: './images/sango_icon.png',
+    '136cf0a90cfc3de9fddcdddc5e9a125d257e5394': './images/annzenn_icon.png',
+    '9e24c56037b4c5a0d944a298fe70d169513e5014': './images/logo.png',
+    '82e4795bd822ddd3f6842390ccae22698b6af8eb': './images/howto.png',
+    '2b35ed2a7bdf8a1625b948c3e4bd5800b4da2343': './images/1-1.png',
+    '3930464a6bd7b3120bdb9f45cbf848d59d42f131': './images/1-2.png',
+    fb68079c99dc7a20445338df516ebd4f607923c7: './images/1-3.png',
+    '4c966ba4b1be41a0a73a87b4a2b98a22e3935cef': './images/1-4.png',
+    '5f529c88bf93278b6c9b3c0537bd21ab4ea6db35': './images/1-5.png',
+    '4ae8d219e22b49d42be135bbe23ac046014f1c97': './images/1-6.png',
+    '85b9e92b1b5ce5ea4f116e164fa462331ea336a3': './images/1-7.png',
+    '76db9a792625e6e3370ecc3969f0f238ac02c7de': './images/1-8.png',
+    c892a4ebaa27d7da16f00a31251ae619dedaae82: './images/1-8-1.png',
+    '850a6be98ceedee2a8d6a4cd2662e25cac32ae76': './images/1-9.png',
+    '5ea202cf453200873c9ffc5427eea334140b4d8c': './images/2-1.png',
+    c0464f656689e3a9f9f262a1a18c7edec7f40e85: './images/2-2.png',
+    da2494ce33f00f49cd45acb1eea4fff6102366f7: './images/2-3-1.png',
+    '58bc15c5db1097bf535cb959395034d9cfaedaa5': './images/2-3-2.png',
+    f368a28b05ef8bf5d7f22ace80b06ca336d48c18: './images/2-4.png',
+    '9ea7620e8f3c32a1e7920534ec6083819ee3eea0': './images/2-4-1.png',
+    '2aeb218277377dfa1d7969a77e252aea0c6e243b': './images/2-5.png',
+    '4a7911a96b373beb941a3d76c83aa6a017a0e81f': './images/2-6.png',
+    ebdd3992560b09879f49652ae993947f72d6096c: './images/2-7.png',
+    b855b716a296222ad3e46b147d934415203222a7: './images/3-1.png',
+    f0fcc19f3db1c52a02fc6eb3ac90cce8358b0014: './images/3-1-1.png',
+    '210d5785f8b20c646149036a45cc109b90b9191b': './images/3-1-2.png',
+    '2a9e9a046b923ff86aeed827d2130fcc37481c48': './images/3-1-3.png',
+    '61004682fb33a8ef513a15408538a3357eeb95f8': './images/3-1-4.png',
+    '95b29e5c6525dcfc480f79de8d2daafa36c6e7c9': './images/3-2.png',
+    e3e10678cc30deaa818535bbdf4b5edff85fa2e5: './images/3-2-1.png',
+    b20ae9cc58de9ce544053165f6a0f45629abccf0: './images/3-3.png',
+    '3515e492b299e3286aaa350e7a294eaf19400d9a': './images/3-3-1.png',
+    bef5779b2684972a491e7cf2b69f1224d692db5f: './images/4-1.png',
+    '09d2cd4fc230ed51d01fe2befedff259c2638454': './images/4-2.png',
     e6edd51012db55e0c1a0fb96fbdcc0a5abddfcf6: './assets/favicon-16x16.png',
     '98f280277d459715bfad929cf1855445649854ec': './assets/favicon-32x32.png',
     '14547d8f7eb2ddd26461adf11bf557b14611b605':
@@ -232,45 +268,9 @@ var __wpo = {
     '6183a52b1f07077fb4b16ba35f16af5f50208196': './assets/mstile-150x150.png',
     d1c51c0b51799682c55b6c550385f18e721c0678: './assets/mstile-310x150.png',
     ba9dc2364df6c557dd018b0eadca2c0563d96d0f: './assets/mstile-310x310.png',
-    '0f2449bd3eb5565c149b5bfa4223b40ecc08a313': './manifest.json',
-    '375cac3d91bb2484b5574f1ffb3635e3e4970edf': './manifest.webapp',
+    '0f2449bd3eb5565c149b5bfa4223b40ecc08a313': './assets/manifest.json',
+    '375cac3d91bb2484b5574f1ffb3635e3e4970edf': './assets/manifest.webapp',
     '62b69d6e42be30ce75e6dd2e80247359ef9c57d4': './assets/browserconfig.xml',
-    a0fab6b00709918718a75a1648217b93becaad9b: './images/gairai_icon.png',
-    e56a764aecd444a3fe2de1f0244ab59ba0ddb39e: './images/nyuuinn_icon.png',
-    c5cebeeea6453f8c495666831aa0dcc9b972b90e: './images/sango_icon.png',
-    '136cf0a90cfc3de9fddcdddc5e9a125d257e5394': './images/annzenn_icon.png',
-    '9e24c56037b4c5a0d944a298fe70d169513e5014': './images/logo.png',
-    '82e4795bd822ddd3f6842390ccae22698b6af8eb': './images/howto.png',
-    '2b35ed2a7bdf8a1625b948c3e4bd5800b4da2343': './images/1-1.png',
-    '3930464a6bd7b3120bdb9f45cbf848d59d42f131': './images/1-2.png',
-    fb68079c99dc7a20445338df516ebd4f607923c7: './images/1-3.png',
-    '4c966ba4b1be41a0a73a87b4a2b98a22e3935cef': './images/1-4.png',
-    '5f529c88bf93278b6c9b3c0537bd21ab4ea6db35': './images/1-5.png',
-    '4ae8d219e22b49d42be135bbe23ac046014f1c97': './images/1-6.png',
-    '85b9e92b1b5ce5ea4f116e164fa462331ea336a3': './images/1-7.png',
-    '76db9a792625e6e3370ecc3969f0f238ac02c7de': './images/1-8.png',
-    c892a4ebaa27d7da16f00a31251ae619dedaae82: './images/1-8-1.png',
-    '850a6be98ceedee2a8d6a4cd2662e25cac32ae76': './images/1-9.png',
-    '5ea202cf453200873c9ffc5427eea334140b4d8c': './images/2-1.png',
-    c0464f656689e3a9f9f262a1a18c7edec7f40e85: './images/2-2.png',
-    da2494ce33f00f49cd45acb1eea4fff6102366f7: './images/2-3-1.png',
-    '58bc15c5db1097bf535cb959395034d9cfaedaa5': './images/2-3-2.png',
-    f368a28b05ef8bf5d7f22ace80b06ca336d48c18: './images/2-4.png',
-    '9ea7620e8f3c32a1e7920534ec6083819ee3eea0': './images/2-4-1.png',
-    '2aeb218277377dfa1d7969a77e252aea0c6e243b': './images/2-5.png',
-    '4a7911a96b373beb941a3d76c83aa6a017a0e81f': './images/2-6.png',
-    ebdd3992560b09879f49652ae993947f72d6096c: './images/2-7.png',
-    b855b716a296222ad3e46b147d934415203222a7: './images/3-1.png',
-    f0fcc19f3db1c52a02fc6eb3ac90cce8358b0014: './images/3-1-1.png',
-    '210d5785f8b20c646149036a45cc109b90b9191b': './images/3-1-2.png',
-    '2a9e9a046b923ff86aeed827d2130fcc37481c48': './images/3-1-3.png',
-    '61004682fb33a8ef513a15408538a3357eeb95f8': './images/3-1-4.png',
-    '95b29e5c6525dcfc480f79de8d2daafa36c6e7c9': './images/3-2.png',
-    e3e10678cc30deaa818535bbdf4b5edff85fa2e5: './images/3-2-1.png',
-    b20ae9cc58de9ce544053165f6a0f45629abccf0: './images/3-3.png',
-    '3515e492b299e3286aaa350e7a294eaf19400d9a': './images/3-3-1.png',
-    bef5779b2684972a491e7cf2b69f1224d692db5f: './images/4-1.png',
-    '09d2cd4fc230ed51d01fe2befedff259c2638454': './images/4-2.png',
     '5dc0baa85659437767d096c2d8128e96ad2bcc16': './main.js',
     df4b45281143df83981fe7ad41eedde8143fb874: './vendor.js',
     '423251d722a53966eb9368c65bfd14b39649105d': './robots.txt',
@@ -278,33 +278,30 @@ var __wpo = {
   },
   strategy: 'changed',
   responseStrategy: 'cache-first',
-  version: '2020-4-6 9:29:07',
+  version: '2020-4-8 12:45:27',
   name: 'webpack-offline',
   pluginVersion: '5.0.7',
   relativePaths: true,
 };
-self.addEventListener("fetch", function(event) {
- //  console.log("[SW] fetch event (global scope fecth handler)");
- });
- 
- self.addEventListener("push", function(event) {
-  if (Notification.permission == "granted") {
-    console.log("[SW] Push Notification Recieved", event);
-    event.waitUntil(
-      self.registration
-        .showNotification(event.data.json().notification.title, {
-          body: event.data.json().notification.body,
-          icon: event.data.json().notification.icon
-        })
-        .then(
-          function(showEvent) {},
-          function(error) {
-            console.log(error);
-          }
-        )
-    );
-  }
- });
+
+self.addEventListener("push", function(event) {
+ if (Notification.permission == "granted") {
+   console.log("[SW] Push Notification Recieved", event);
+   event.waitUntil(
+     self.registration
+       .showNotification(event.data.json().notification.title, {
+         body: event.data.json().notification.body,
+         icon: event.data.json().notification.icon
+       })
+       .then(
+         function(showEvent) {},
+         function(error) {
+           console.log(error);
+         }
+       )
+   );
+ }
+});
 
 !(function(e) {
   var n = {};
